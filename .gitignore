@@ -1,0 +1,37 @@
+# Secrets & local config
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node (demo app)
+node_modules/
+**/node_modules/
+
+# Test artifacts
+testruns/
+artifacts/
+*.har
+*.webm
+*.png
+*.json.tmp
+# Keep example fixtures' build artifacts ignored but allow committed demo app
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
