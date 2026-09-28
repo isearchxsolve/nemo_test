@@ -35,3 +35,10 @@ artifacts/
 .idea/
 .DS_Store
 Thumbs.db
+
+# commit_dirty hygiene - build artifacts are never committed
+node_modules/
+__pycache__/
+*.pyc
+.tmp_*
+
